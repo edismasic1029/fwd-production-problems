@@ -51,5 +51,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   flex: 1 0 100%;
 }
 @media screen and (min-width: 800px) {
-
+  #three,
+  #two,
+  #one {
+    flex: 1 0 33%; 
+    height: 33vw;
+  }
 }
